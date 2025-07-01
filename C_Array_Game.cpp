@@ -27,21 +27,13 @@ int main()
   {
     ll n,k;
     cin>>n>>k;
-    priority_queue<ll>pq;
-    priority_queue<ll,vector<ll>,greater<ll>>pqq;
     vector<ll>v(n);
     for(ll i=0;i<n;i++){
         cin>>v[i];
     }
     sort(v.begin(),v.end());
-    for(ll i=1;i<n;i++){
-      pqq.push(v[i]-v[i-1]);
-    }
-    ll ans=1e10;
-    while(k){
-      ll x=pq.top();
-      
-    }
+
+    
 
   }
   return 0;
